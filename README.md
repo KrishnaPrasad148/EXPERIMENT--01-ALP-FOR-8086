@@ -1,9 +1,9 @@
 # EXPERIMENT 01 ALP FOR 8086
-Name : KRISHNA PRASAD S
+## Name : KRISHNA PRASAD S
 
-Reg no : 212223230108
+## Reg no : 212223230108
 
-Date of experiment : 21-03-2025
+## Date of experiment : 21-03-2025
 
 ## Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations
@@ -32,7 +32,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit numbers ALP 
-```assembly
+```
 MOV AL,88H
 MOV BL,65H
 ADD AL,BL
@@ -42,7 +42,7 @@ HLT
  ![ADDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/9b3a7e31-db56-4c0e-9b59-43fe21ab0371)
 
 ## Subtraction  of 8 bit numbers  ALP 
-```assembly
+```
 MOV AL,84H
 MOV BL,63H
 SUB AL,BL
@@ -52,7 +52,7 @@ HLT
 ![SUBEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/fcb56b58-d90f-4cf2-850d-85c531d9862c)
 
 ## Multiplication of 8 bit numbers  ALP
-```assembly
+```
 MOV AL,75H
 MOV BL,32H
 MUL BL
@@ -62,7 +62,7 @@ HLT
 ![MULEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d5f842ca-8113-4380-9948-2dd4089cb605)
 
 ## Division of 8 bit numbers  ALP
-```assembly
+```
 MOV AL,68H
 MOV BL,18H
 DIV BL
@@ -71,8 +71,8 @@ HLT
 ## Output  
 ![DIV EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/b34c43fd-318d-4df8-995b-d4357456f886)
 
-## And of 8 bit numbers ALP
-```assembly
+## AND of 8 bit numbers ALP
+```
 MOV AL,33H
 MOV BL,44H
 AND AL,BL
