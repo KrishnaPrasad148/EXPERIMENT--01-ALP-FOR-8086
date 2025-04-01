@@ -29,9 +29,10 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
-## Programs for arithmetic  operations
 
-## Addition  of 8 bit numbers ALP 
+# Programs for arithmetic  operations
+
+## 1) Addition  of 8 bit numbers ALP 
 ```
 MOV AL,88H
 MOV BL,65H
@@ -41,7 +42,7 @@ HLT
 ## Output  
  ![ADDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/9b3a7e31-db56-4c0e-9b59-43fe21ab0371)
 
-## Subtraction  of 8 bit numbers  ALP 
+## 2) Subtraction  of 8 bit numbers  ALP 
 ```
 MOV AL,84H
 MOV BL,63H
@@ -51,7 +52,7 @@ HLT
 ## Output 
 ![SUBEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/fcb56b58-d90f-4cf2-850d-85c531d9862c)
 
-## Multiplication of 8 bit numbers  ALP
+## 3) Multiplication of 8 bit numbers  ALP
 ```
 MOV AL,75H
 MOV BL,32H
@@ -61,7 +62,7 @@ HLT
 ## Output  
 ![MULEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d5f842ca-8113-4380-9948-2dd4089cb605)
 
-## Division of 8 bit numbers  ALP
+## 4) Division of 8 bit numbers  ALP
 ```
 MOV AL,68H
 MOV BL,18H
@@ -71,7 +72,7 @@ HLT
 ## Output  
 ![DIV EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/b34c43fd-318d-4df8-995b-d4357456f886)
 
-## AND of 8 bit numbers ALP
+## 5) AND of 8 bit numbers ALP
 ```
 MOV AL,33H
 MOV BL,44H
@@ -81,7 +82,7 @@ HLT
 ## Output
 ![ANDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/137f8c67-17d9-4cc2-8437-349d50e0a404)
 
-## OR of 8 bit numbers ALP
+## 6) OR of 8 bit numbers ALP
 ```assembly
 MOV AL,45H
 MOV BL,66H
@@ -91,7 +92,7 @@ HLT
 ## Output
 ![OR EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d9fce991-bce0-4c58-a77c-2de3216f302d)
 
-## NOT of 8 bit number ALP
+## 7) NOT of 8 bit number ALP
 ```assembly
 MOV AL,65H
 NOT AL
@@ -100,7 +101,7 @@ HLT
 ## Output
 ![NOT EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/a7efe90e-2100-4df5-8298-3516af3b7f65)
 
-## XOR of 8 bit number ALP
+## 8) XOR of 8 bit number ALP
 ```assembly
 MOV AL,66H
 MOV BL,77H
